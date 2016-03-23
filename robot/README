@@ -1,0 +1,70 @@
+SYCS Robot Games
+
+Instructions:
+
+Please implement each function solveN. The number at the end of the function name 
+specifies which game it is solving. Example: solve2 is called to solve game 2.  
+If you would like to see the games look at gamedefs.py.  DO NOT MODIFY gamedefs.py.   
+All of your code should be implemented in this file.
+
+- Solve each game.
+- Create functions to simplify your code. If you find yourself writing the same 
+  code over and over again, it  should probably be made into a function. 
+- Consider using loops for repetitive task.
+- Be creative with your solutions!  There are many ways to solve these puzzles so 
+  I am expecting unique solutions.  I will be comparing students work!
+- Try to keep your solutions a simple and small as possible.  Keep working until 
+  you are proud of your solution.
+- Use any programing concepts we have learned in class.
+- Use the Built-in Functions (detailed below) to manipulate the bot.
+
+
+Built-in Functions:
+
+TurnOn - Turns on your bot. 
+TurnOff - Turns off your bot
+TurnLeft - Turns the bot left.  (Not there is NO TurnRight can you fix this?)
+Move - Moves the bot it the direction that it is facing.
+PickUp - Picks up one pickup (purple circle) the bot is standing on.
+PutDown - Puts down one pickup if the bot is holding any.
+isAtPickUp - Returns True if the bot is standing on a pickup. False otherwise.
+isAtDeposit - Returns True if the bot is standing on a deposit block. False otherwise. 
+isAtEnd - Returns True if the bot is standing on the end block. False otherwise.
+isClearAhead - Returns True if the bot has a clear path in the direction it is facing. 
+               False otherwise.
+isClearLeft - Returns True if the bot has a clear path on the left. False otherwise.
+isClearRight - Returns True if the bot has a clear path on the right. False otherwise.
+hasPickUps  - Returns True if the bot is holding pickups. False otherwise.
+hasError  - Returns True if the bot encountered and error and failed. False otherwise.
+
+
+Rules:
+
+- The bot must be turned on to perform any instructions.
+- The bot must be turned off the end.
+- The bot must be on the end block at the finish of the game.
+- The bot can not be holding any pickups at the end of the game.
+- All pickups must be placed on a deposit at the end of the game.
+- All deposits must have at least one pickup on it at the end of the game.
+- The bot can not try to move through a wall.
+
+
+Notes on the files:
+
+- You only need to work in the robot.py file.
+- The .pyc files are compiled python files.  They are in byte code and you won't be able to read
+  them.
+- Do not Modify any code besides robot.py
+- You will only Submit robot.py
+
+
+Testing:
+
+- Run main.py to test.
+- Read the comments at the top of robot.py to learn what global variables you can change to affect
+  testing.
+- Report any bugs with the GUI to Professor Pratt immediately. 
+
+
+
+
